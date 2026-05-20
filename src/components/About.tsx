@@ -3,11 +3,11 @@ import { profile } from "../data/resume";
 
 export default function About() {
   return (
-    <Section id="about" num="01 / About" title="A few words">
+    <Section id="about" label="About" title="Engineer-builder. Quiet rigor.">
       <div className="about-grid">
         <p className="about-lead">
-          Engineer-builder. Quiet rigor. Ships production systems with real users and real
-          revenue.
+          I ship production systems with real users and real revenue — from architecture to
+          deployment, owned end-to-end.
         </p>
         <div>
           <p className="about-body">{profile.summary}</p>

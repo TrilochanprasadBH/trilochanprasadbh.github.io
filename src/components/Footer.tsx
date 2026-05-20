@@ -1,9 +1,11 @@
+import SocialIcons from "./SocialIcons";
+
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="container" style={{ display: "flex", justifyContent: "space-between", width: "100%" }}>
+      <div className="container footer-inner">
         <span>© {new Date().getFullYear()} Trilochanprasad B Hilli</span>
-        <span>Designed & built with care.</span>
+        <SocialIcons className="footer-socials" />
       </div>
     </footer>
   );

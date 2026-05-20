@@ -3,9 +3,9 @@ export const profile = {
   shortName: "Trilochanprasad",
   title: "Full-stack Engineer",
   location: "Bengaluru, India",
-  email: "tptrilochanprasad@gmail.com",
+  email: "tpbh230@gmail.com",
   phone: "+91 95353 32999",
-  linkedin: "https://www.linkedin.com/in/trilochanprasad",
+  linkedin: "https://www.linkedin.com/in/trilochanprasad-b-hilli-7a1871106/",
   github: "https://github.com/TrilochanprasadBH",
   summary:
     "Full-stack engineer and solo SaaS builder specializing in AI-powered systems and end-to-end product delivery. Shipped 2 production SaaS platforms independently — architecture to deployment — with real users and revenue. Builds async LLM pipelines, RAG systems, and multi-tenant infrastructure from scratch. Led engineering for 4 international clients across EU, UK, and US markets with direct ownership above role scope.",

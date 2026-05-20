@@ -3,14 +3,14 @@ import { projects } from "../data/resume";
 
 export default function Projects() {
   return (
-    <Section id="projects" num="03 / Selected work" title="Things I've built">
+    <Section id="projects" label="Projects" title="Selected work">
       <div className="projects-grid">
         {projects.map((p) => (
           <article key={p.name} className="project">
-            <div className="project-head">
+            <header className="project-head">
               <h3 className="project-name">{p.name}</h3>
               <span className="project-tag">{p.tagline}</span>
-            </div>
+            </header>
             <p className="project-desc">{p.description}</p>
             <ul className="project-bullets">
               {p.bullets.map((b, i) => (
