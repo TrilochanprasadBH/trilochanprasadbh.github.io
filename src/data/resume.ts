@@ -15,7 +15,7 @@ export const experience = [
   {
     role: "Full Stack Developer",
     company: "TheBrandwick.com",
-    period: "Aug 2024 — Present",
+    period: "Jan 2024 — Present",
     location: "Bengaluru",
     bullets: [
       "Operated beyond typical SDE-1 responsibilities across all four client engagements — independently owning sprint planning, client communication, technical delivery, and execution accountability.",
