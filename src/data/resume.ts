@@ -19,10 +19,10 @@ export const experience = [
     location: "Bengaluru",
     bullets: [
       "Operated beyond typical SDE-1 responsibilities across all four client engagements — independently owning sprint planning, client communication, technical delivery, and execution accountability.",
-      "Shipped booking and FAQ systems for quoka.co.uk using Next.js and REST APIs, improving user experience and achieving 90+ Web Vitals scores for one of the UK's leading trades aggregators.",
-      "Led architecture and delivery for VastuWisdom, a premium consultation platform, driving product design, engineering decisions, and mentoring 2 engineers.",
-      "Delivered AlexandersFA, a UK-based mortgage and tax consultancy platform, from design to deployment with full client ownership. Achieved 95+ SEO scores and improved user retention by over 35%.",
-      "Developed frontend systems for AllUnity, Europe's largest stablecoin initiative, in a client-facing engineering role, contributing to a 45% increase in conversion rates.",
+      "Shipped booking and FAQ systems for **Quoka** using Next.js and REST APIs, improving user experience and achieving 90+ Web Vitals scores for one of the UK's leading trades aggregators.",
+      "Led architecture and delivery for **VastuWisdom**, a premium consultation platform, driving product design, engineering decisions, and mentoring 2 engineers.",
+      "Delivered **AlexandersFA**, a UK-based mortgage and tax consultancy platform, from design to deployment with full client ownership. Achieved 95+ SEO scores and improved user retention by over 35%.",
+      "Developed frontend systems for **AllUnity**, Europe's largest stablecoin initiative, in a client-facing engineering role, contributing to a 45% increase in conversion rates.",
     ],
   },
 ];

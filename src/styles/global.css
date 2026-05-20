@@ -587,6 +587,11 @@ main > section:nth-of-type(odd) {
   border-radius: 999px;
 }
 
+.exp-bullets strong {
+  font-weight: 600;
+  color: var(--ink-1);
+}
+
 /* Projects */
 .projects-grid {
   display: flex;

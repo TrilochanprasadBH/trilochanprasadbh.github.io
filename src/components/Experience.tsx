@@ -1,5 +1,15 @@
+import { Fragment } from "react";
 import Section from "./Section";
 import { experience } from "../data/resume";
+
+function renderBold(text: string) {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+    return <Fragment key={i}>{part}</Fragment>;
+  });
+}
 
 export default function Experience() {
   return (
@@ -18,7 +28,7 @@ export default function Experience() {
               </h3>
               <ul className="exp-bullets">
                 {job.bullets.map((b, i) => (
-                  <li key={i}>{b}</li>
+                  <li key={i}>{renderBold(b)}</li>
                 ))}
               </ul>
             </div>
