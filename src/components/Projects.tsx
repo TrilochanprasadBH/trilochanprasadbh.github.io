@@ -8,7 +8,22 @@ export default function Projects() {
         {projects.map((p) => (
           <article key={p.name} className="project">
             <header className="project-head">
-              <h3 className="project-name">{p.name}</h3>
+              <div className="project-title-row">
+                <h3 className="project-name">{p.name}</h3>
+                <a
+                  className="project-link"
+                  href={p.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open ${p.name} in a new tab`}
+                >
+                  <span>Visit site</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M7 17 17 7" />
+                    <path d="M8 7h9v9" />
+                  </svg>
+                </a>
+              </div>
               <span className="project-tag">{p.tagline}</span>
             </header>
             <p className="project-desc">{p.description}</p>

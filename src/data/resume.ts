@@ -31,6 +31,7 @@ export const projects = [
   {
     name: "ScoreResume",
     tagline: "AI-powered resume intelligence SaaS",
+    url: "https://scoreresume.com",
     description:
       "Transforms resumes into measurable career outcomes — ATS readiness, interview performance, and job-fit intelligence.",
     bullets: [
@@ -51,6 +52,7 @@ export const projects = [
   {
     name: "AttemptIQ",
     tagline: "UPSC diagnostic analytics platform",
+    url: "https://attemptiq.com",
     description:
       "Full-stack SaaS that transforms mock test performance into actionable readiness insights for serious aspirants.",
     bullets: [
